@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fb-fonts.css">
+    <link rel="stylesheet" href="fonts/whitney-font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="simplePagination/simplePagination.css">
+    <script src="countdown.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="simplePagination/jquery.simplePagination.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="fg-wrapper">
+        <div class="fg-container">
+            <div class="fg-news">
+                <h2>Все новости аналитики</h2>
+                <div class="center1">
+                    <select name="sources" id="sources1" class="fg-select sources" data-label="Все новости аналитики">
+                        <option value="acad">Выбор Академии</option>
+                        <option value="top">Топ просмотров</option>
+                        <option value="recomend">Рекомендации</option>
+                        <option value="sale">Акционные</option>
+                        <option value="new">Новинки</option>
+                    </select>
+                    <div class="countdown_popup">
+                        <a href="#"><span style="display: block; margin-top: -6px;">...</span>
+                            <div class="fg-news_countdown">
+                                <img src="images/clock.png" alt="">
+                                <p class="time__left">До выхода новости осталось:</p>
+                                <div class="clock">
+                                    <ul>
+                                        <li class="time"><span>1</span></li>
+                                        <li class="time"><span>2</span></li>
+                                        <li class="time"><span>0</span></li>
+                                        <li class="time"><span>5</span></li>
+                                        <li class="time"><span>2</span></li>
+                                        <li class="time"><span>3</span></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="buyCounter">
+                                    <div class="buyCounterWrap">
+                                        <div class="buyCounter__counter">
+                                            <p id="CDT" class="buyCounter_timer"></p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <p>Германия: <span>Индекс Tankan для капитальных расходов крупных предприятий всех отраслей (4 кв.)</span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи</a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span><span class="fg-news_author__name">, Пэдрам Рауфи</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка</a></h3>
+                            <p class="size">Согласно прогнозам прошлого обзора, сужение пружины под линией нисходящего центра сопровождалось формированием бычьего импульса, который усилился
+                                по итогам перехода линий дневного осциллятора в зону перекупленности. Как и предполагали, данная среднесрочная коррекция завершилась под диапазоном локального
+                                максимума 0.6960/40, выше которого расположен психологический уровень 0.7000...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи</a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка<a></h3>
+                            <p>Согласно прогнозам прошлого обзора, очередное сужение пружины под линией нисходящего тренда завершилось отбоем цены вниз. Но по итогам тестирования локального минимума,
+                                на отметке целевого уровня 0.2760, который указан в качестве разворотной точки на графике Daily статьи за 16 января, столкнулись с отбоем цены вверх...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи</a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">USOIL, H4. Чем завершится консолидация над линией восходящего тренда?<a></h3>
+                            <p>Котировки индекса доллара США вернулись выше технического уровня сопротивления 95.27, что указывает на готовность покупателей продолжить рост к 95.50 и далее к 95.65.
+                                Этот сценарий может оставаться актуальным лишь до момента возврата цены под технический уровень 95.20 - последний минимум на H1. Сегодня насыщенность новостного фона будет
+                                достаточно высокой, поэтому есть риск появления сильных ценовых движений...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи<a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка<a></h3>
+                            <p class="size">Согласно прогнозам прошлого обзора, сужение пружины под линией нисходящего центра сопровождалось формированием бычьего импульса, который усилился
+                                по итогам перехода линий дневного осциллятора в зону перекупленности. Как и предполагали, данная среднесрочная коррекция завершилась под диапазоном локального
+                                максимума 0.6960/40, выше которого расположен психологический уровень 0.7000...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи<a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка<a></h3>
+                            <p>Согласно прогнозам прошлого обзора, очередное сужение пружины под линией нисходящего тренда завершилось отбоем цены вниз. Но по итогам тестирования локального минимума,
+                                на отметке целевого уровня 0.2760, который указан в качестве разворотной точки на графике Daily статьи за 16 января, столкнулись с отбоем цены вверх...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи<a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">USOIL, H4. Чем завершится консолидация над линией восходящего тренда?<a></h3>
+                            <p>Котировки индекса доллара США вернулись выше технического уровня сопротивления 95.27, что указывает на готовность покупателей продолжить рост к 95.50 и далее к 95.65.
+                                Этот сценарий может оставаться актуальным лишь до момента возврата цены под технический уровень 95.20 - последний минимум на H1. Сегодня насыщенность новостного фона будет
+                                достаточно высокой, поэтому есть риск появления сильных ценовых движений...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи<a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка<a></h3>
+                            <p>Согласно прогнозам прошлого обзора, сужение пружин под линией нисходящего тренда сопровождалось формирование бычьего импульса, который усилился по итогам перехода линий
+                                дневного осциллятора stochastic в зону перекупленности. Как и предпологали, данная среднесрочная коррекция завершилась под диапазоном локального максимума 0.6960/40,
+                                выше которого расположен псилогический уровень 0.7000...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fg-news_block">
+                    <div class="fg-news_author">
+                        <a href="#"><div class="fg-news_type">Фундаментальные комментарии</div><img src="images/filter_arrow.png" alt=""></a>
+                        <a class="fg-face" href="#">
+                            <img src="images/author.png" alt="">
+                            <p><a href="#">Пэдрам Рауфи</a></p>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="fg-news_date">10 декабря 2018, <img src="images/news_clock.png" alt=""><span> 13:04</span></div>
+                        <div class="fg-news_name">
+                            <h3><a href="#">EURUSD, H4. Накануне ретеста основания рынка</a></h3>
+                            <img src="images/news_photo.png" alt="">
+                            <p>Согласно прогнозам прошлого обзора, очередное сужиние пружины под линией нисходящего тренда завершилось отбоем цены вниз. Но по итогам тестирования локального минимума,
+                                на отметке целевого уровня 0.2760, который указан в качестве разворотной точки на графике Daily статьи за 16 января, столкнулись с отбоем цены вверх...
+                            </p>
+                            <a href="#" class="fg-news_type__mob"><p>Фундаментальные комментарии</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="pagin go_to container"></div> -->
+            <!-- <div class="pagin go_to container light-theme pagination simple-pagination">
+                <ul>
+                    <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2 <span class="sr-only"></span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </div> -->
+        <div class="pagination">
+            <div></div>
+            <div class="active_page">1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>100</div>
+            <div>101</div>
+            <div><img src="images/arrow-paginator-next.png" alt=""></div>
+        </div>
+            <div class="fg-aside">
+                <div class="fg-analytics_menu">
+                    <ul class="fg-analytics_list">
+                        <li class="list__active"><a href="#">Все новости аналитики</a></li>
+                        <li><a href="#">Графический анализ</a></li>
+                        <li><a href="#">Фундаментальные комментарии</a></li>
+                        <li><a href="#">Обзор криптовалютного рынка</a></li>
+                        <li><a href="#">Анализ товарно-сырьевых рынков</a></li>
+                        <li><a href="#">Торговые рекомендации</a></li>
+                    </ul>
+                </div>
+                <div class="fg-news_countdown">
+                    <img src="images/clock.png" alt="">
+                    <p class="time__left">До выхода новости осталось:</p>
+                    <div class="clock">
+                        <ul>
+                            <li class="time"><span>1</span></li>
+                            <li class="time"><span>2</span></li>
+                            <li class="time"><span>0</span></li>
+                            <li class="time"><span>5</span></li>
+                            <li class="time"><span>2</span></li>
+                            <li class="time"><span>3</span></li>
+                        </ul>
+                    </div>
+                    <div class="clock_time__left">
+                        <span class="left_hours">часов</span>
+                        <span class="left_minutes">минут</span>
+                        <span class="left_seconds">секунд</span>
+                    </div>
+                    <!-- <div class="buyCounter">
+                        <div class="buyCounterWrap">
+                            <div class="buyCounter__counter">
+                                <p id="CDT" class="buyCounter_timer"></p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <p>Германия: <span>Индекс Tankan для капитальных расходов крупных предприятий всех отраслей (4 кв.)</span></p>
+                </div>
+                <div class="fg-aside_telegram">
+                    <img src="images/telegram.png" alt="">
+                    <p>Аналитика FIBO Group в Telegram</p>
+                </div>
+                <div class="fg-aside_video">
+                    <div>
+                        <span>Фокус рынка</span>
+                        <div class="iframe">
+                            <iframe id="fg-video_first" width="291" height="164" src="https://www.youtube.com/embed/SGfTjzCtvr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <img src="images/focus.png" alt=""> -->
+                        </div>
+                        <p class="video_name video-play_first">Основная процентная ставка Банка Канады</p>
+                        <p class="video_date video_date__first">20 сентября 2017</p>
+                    </div>
+                    <div>
+                        <span>Недельный обзор</span>
+                        <div class="iframe">
+                            <iframe id="fg-video_last" width="291" height="164" src="https://www.youtube.com/embed/SGfTjzCtvr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <img src="images/week.png" alt=""> -->
+                        </div>
+                        <p class="video_name video-play_last">Основная процентная ставка Банка Канады</p>
+                        <p class="video_date">20 сентября 2017</p>
+                    </div>
+                </div>
+                <div class="fg-aside_sign">
+                    <span>Хотите получать самые свежие новости и аналитику?</span>
+                    <input type="email" placeholder="Ваш e-mail адрес">
+                    <input class="sign-email" type="submit" name="sign_email" value="ПОДПИСАТЬСЯ">
+                </div>
+                <div class="fg-aside_social">
+                    <span>Добавить FIBO GROUP</span>
+                    <ul>
+                        <li><a href="#" class="icon-vk"><span>Вконтакте</span></a></li>
+                        <li><a href="#" class="icon-facebook"><span>Facebook</a></span></li>
+                        <li><a href="#" class="icon-youtube"><span>YouTube</span></a></li>
+                        <li><a href="#" class="icon-twitter"><span>Twitter</span></a></li>
+                        <li><a href="#" class="icon-telegram"><span>Telegram</span></a></li>
+                        <li><a href="#" class="icon-instagram"><span>Instagram</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
